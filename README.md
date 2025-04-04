@@ -1,10 +1,6 @@
 # micro-frontend
 
 ```mermaid
-graph TD;
-    subgraph Shell Application
-        A[Shell (Container App)]
-    end
 
     subgraph Application1
         B1[Application1]
