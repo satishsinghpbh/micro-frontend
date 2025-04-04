@@ -1,8 +1,10 @@
-# micro-frontend
+# Micro Frontend Architecture
+
+#This diagram represents the **Micro Frontend Architecture** with a shell application, multiple applications, micro frontends, and remote components.
 
 ```mermaid
-
-    subgraph Application1
+graph TD;
+     subgraph Application1
         B1[Application1]
         C1[Micro Frontend Component 1]
         C2[Micro Frontend Component 2]
@@ -32,5 +34,4 @@
     C2 -->|Fetches| R2
     C3 -->|Fetches| R3
     C4 -->|Fetches| R4
-
 ```
